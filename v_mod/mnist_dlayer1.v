@@ -1,9 +1,8 @@
-/*`include "/home/elsiery/github_codes/ml_hw/v_mod/mnist/dlayer/node/unit/mnist_dlayer1_node_unit.v"
-`include "/home/elsiery/github_codes/ml_hw/v_mod/mnist/dlayer/node/mnist_dlayer1_node.v"
-`include "/home/elsiery/github_codes/ml_hw/v_mod/mnist/dlayer/node/model_layer_node_relu.v"
-`include "/home/elsiery/github_codes/ml_hw/v_mod/mnist/dlayer/node/unit/model_layer_node_unit_multiplier.v"
-`include "/home/elsiery/github_codes/ml_hw/v_mod/mnist/dlayer/node/unit/model_layer_node_unit_adder.v"
-*/
+//////////////////////////////////////////////////////////////////////////////////
+//
+//Author: Elsie Rezinold Yedida
+//////////////////////////////////////////////////////////////////////////////////
+
 module mnist_dlayer1(
 	clk, 
     rst_n,
