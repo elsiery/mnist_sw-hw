@@ -12,13 +12,10 @@ This repository contains the training of a  deep learning model using tensorflow
 ### netlist gen
 3.  yosys
 
-### Timing
-4.  opensta
-
 ### making the ml model
-5.  Tensorflow libraries
+4.  Tensorflow libraries
 
-Go to Docs folder for detailed uArch
+Go to Docs folder for detailed design
 
 
 
