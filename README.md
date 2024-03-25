@@ -26,12 +26,12 @@
 
 * The image data is divided by 255, which is the maximum pixel size. So all the image data that is 256 pixels are valued between 0 and 1.
 
-![alt text]("NN")
+![alt text](https://github.com/elsiery/mnist_sw-hw/blob/main/docs/nn.png "NN")
 
-
+* hu - "hidden unit"
 * The above figure depicts our model.
 
-![alt text]("metrics")
+![alt text](https://github.com/elsiery/mnist_sw-hw/blob/main/docs/metrics.png "metrics")
 
 * Metrics of our model.
 
@@ -39,9 +39,7 @@
 | Model  | Accuracy | loss |
 |--------|----------|------|
 |Training|  97.93%  | 0.06 |
-|--------|----------|------|
 |Test    |  96.38%  | 0.15 |
-|--------|----------|------|
 
 
 * The whole python note book is uploaded in “dl_model” folder. Tensorflow libraries have been used.
@@ -68,9 +66,7 @@
 | Hardware Model | Input(bits) | Output(bits) |
 |----------------|-------------|--------------|
 |   Mnist.v	     | 256 x 32bits| 10 x 32bits  |
-|----------------|-------------|--------------|
 | Mnist_dlayer1.v| 256 x 32bits| 20 x 32bits  |
-|----------------|-------------|--------------|
 | Mnist_dlayer2.v| 20 x 32bits | 10 x 32bits  |
 
 
@@ -78,7 +74,7 @@
 
 * But, to keep the hardware simple we omitted the sigmoid unit. So, in layer 2 module there are only 10 x 20 float point multipliers and 10 x 19 float point adders.
 
-![alt text]("top level diagram")
+![alt text](https://github.com/elsiery/mnist_sw-hw/blob/main/docs/mnist_toplevel.png "top level diagram")
 
 * The above figure gives an idea of the top-level module.
 
